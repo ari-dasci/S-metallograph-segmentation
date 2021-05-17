@@ -18,14 +18,14 @@ class ContinuityLoss(torch.nn.Module):
         self.initial_loss = initial_loss
         self.__name__ = initial_loss.__name__ + "_continuity"
 
-    def forward(self, X, Y: torch.Tensor):
+    def forward(self, input: torch.Tensor, target: torch.Tensor):
         # continuity loss definition
-        Y = Y.type(torch.FloatTensor).cuda()
+        input = input.type(torch.FloatTensor).cuda()
 
-        lhpy = self.continuityLoss(Y[:, :, 1:, :], Y[:, :, 1:, :])
-        lhpz = self.continuityLoss(Y[:, :, :, 1:], Y[:, :, :, 0:-1])
+        lhpy = self.continuityLoss(input[:, :, 1:, :], input[:, :, 0:-1, :])
+        lhpz = self.continuityLoss(input[:, :, :, 1:], input[:, :, :, 0:-1])
 
-        return self.initial_loss(X, Y)+self.stepsize_con*(lhpy + lhpz)
+        return self.initial_loss(input, target)+self.stepsize_con*(lhpy + lhpz)
 
 
 class CategoricalCrossEntropyLoss(basic_losses.CrossEntropyLoss):
