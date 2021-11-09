@@ -3,14 +3,20 @@ Code for semantic segmentation models and techniques applied to metal microstruc
 
 ## Publications and citations
 
+> [A tutorial on the segmentation of metallographic images: Taxonomy, new MetalDAM dataset, deep learning-based ensemble model, experimental analysis and challenges. Julián Luengo, Raúl Moreno, Iván Sevillano, David Charte, Adrián Peláez-Vegas, Marta Fernández-Moreno, Pablo Mesejo and Francisco Herrera. Information Fusion 78 (232-253), 2022.](https://www.sciencedirect.com/science/article/pii/S1566253521001949)
+
 If you want to cite this Python package, please use the following citation:
 
 ~~~latex
-@misc{metalseg,
-  title={metallograph-segmentation: Python package for segmentation of metal microstructures},
-  author={{ArcelorMittal} and {DaSCI Andalusian Research Institute}},
-  url={https://github.com/ari-dasci/S-metallograph-segmentation}
+@article{metalseg,
+  title = {A tutorial on the segmentation of metallographic images: Taxonomy, new MetalDAM dataset, deep learning-based ensemble model, experimental analysis and challenges},
+  journal = {Information Fusion},
+  volume = {78},
+  pages = {232-253},
+  year = {2022},
+  issn = {1566-2535},
+  doi = {https://doi.org/10.1016/j.inffus.2021.09.018},
+  url = {https://www.sciencedirect.com/science/article/pii/S1566253521001949},
+  author = {Julián Luengo and Raúl Moreno and Iván Sevillano and David Charte and Adrián Peláez-Vegas and Marta Fernández-Moreno and Pablo Mesejo and Francisco Herrera},
 }
 ~~~
-
-A publication presenting the associated dataset and experiments will be added here soon.
