@@ -29,5 +29,6 @@ setup(
         "pandas",
         "segmentation-models-pytorch",
         "pytest",
+        "pkginfo >= 1.10"
     ],
 )
