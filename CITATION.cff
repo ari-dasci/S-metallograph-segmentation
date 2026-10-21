@@ -1,0 +1,66 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the article below."
+title: "S-metallograph-segmentation"
+abstract: "Semantic segmentation models and techniques applied to metal microstructures, in collaboration with ArcelorMittal."
+type: software
+license: GPL-3.0
+repository-code: "https://github.com/ari-dasci/S-metallograph-segmentation"
+keywords:
+  - semantic segmentation
+  - metallography
+  - materials science
+  - deep learning
+  - MetalDAM
+authors:
+  - family-names: Luengo
+    given-names: Julián
+    affiliation: "Andalusian Research Institute in Data Science and Computational Intelligence (DaSCI), University of Granada, Spain"
+  - family-names: Moreno
+    given-names: Raúl
+    affiliation: "Andalusian Research Institute in Data Science and Computational Intelligence (DaSCI), University of Granada, Spain"
+  - family-names: Sevillano
+    given-names: Iván
+    orcid: "https://orcid.org/0000-0002-5029-9106"
+    affiliation: "Andalusian Research Institute in Data Science and Computational Intelligence (DaSCI), University of Granada, Spain"
+  - family-names: Charte
+    given-names: David
+    affiliation: "Andalusian Research Institute in Data Science and Computational Intelligence (DaSCI), University of Granada, Spain"
+  - family-names: Peláez-Vegas
+    given-names: Adrián
+    affiliation: "Andalusian Research Institute in Data Science and Computational Intelligence (DaSCI), University of Granada, Spain"
+  - family-names: Fernández-Moreno
+    given-names: Marta
+    affiliation: "Andalusian Research Institute in Data Science and Computational Intelligence (DaSCI), University of Granada, Spain"
+  - family-names: Mesejo
+    given-names: Pablo
+    affiliation: "Andalusian Research Institute in Data Science and Computational Intelligence (DaSCI), University of Granada, Spain"
+  - family-names: Herrera
+    given-names: Francisco
+    affiliation: "Andalusian Research Institute in Data Science and Computational Intelligence (DaSCI), University of Granada, Spain"
+preferred-citation:
+  type: article
+  title: "A tutorial on the segmentation of metallographic images: Taxonomy, new MetalDAM dataset, deep learning-based ensemble model, experimental analysis and challenges"
+  authors:
+    - family-names: Luengo
+      given-names: Julián
+    - family-names: Moreno
+      given-names: Raúl
+    - family-names: Sevillano
+      given-names: Iván
+      orcid: "https://orcid.org/0000-0002-5029-9106"
+    - family-names: Charte
+      given-names: David
+    - family-names: Peláez-Vegas
+      given-names: Adrián
+    - family-names: Fernández-Moreno
+      given-names: Marta
+    - family-names: Mesejo
+      given-names: Pablo
+    - family-names: Herrera
+      given-names: Francisco
+  journal: "Information Fusion"
+  volume: 78
+  start: 232
+  end: 253
+  year: 2022
+  doi: "10.1016/j.inffus.2021.09.018"
