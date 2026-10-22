@@ -21,6 +21,11 @@ setup(
     install_requires=[
         "torch >= 1.7.0",
         "torchvision >= 0.8.0",
+        "numpy",
+        "scipy",
+        "h5py",
+        "Pillow",
+        "torchsummary",
         "opencv-python",
         "tensorflow >= 2.0.0",
         "scikit-learn",
