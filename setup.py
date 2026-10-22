@@ -15,7 +15,7 @@ setup(
     'metallograph_segmentation/models/stacking/train.py',
     'metallograph_segmentation/models/stacking/trainK3.py'],
     url='https://github.com/ari-dasci/S-metallograph-segmentation',
-    license='LICENSE',
+    license='GPL-3.0-only',
     description='Code for semantic segmentation models and techniques applied to metal microstructures, in collaboration with ArcelorMittal',
     long_description=open('README.md').read(),
     install_requires=[
@@ -33,7 +33,8 @@ setup(
         "matplotlib",
         "pandas",
         "segmentation-models-pytorch",
-        "pytest",
-        "pkginfo >= 1.10"
     ],
+    extras_require={
+        "test": ["pytest"],
+    },
 )
