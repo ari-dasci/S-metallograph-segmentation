@@ -83,6 +83,14 @@ Note that the scripts fall back to a default configuration path
 `.config` file is committed to this repository**. Write your own before running them, or the
 script stops at the configuration read.
 
+A starting point is in [`examples/example.config`](examples/example.config), with every key
+the scripts read and the typed sections the parser expects. To check that your own file is
+well formed, without needing TensorFlow, PyTorch or the dataset:
+
+```bash
+python examples/check_config.py
+```
+
 ## Publication and citation
 
 > [A tutorial on the segmentation of metallographic images: Taxonomy, new MetalDAM dataset, deep learning-based ensemble model, experimental analysis and challenges. Julián Luengo, Raúl Moreno, Iván Sevillano, David Charte, Adrián Peláez-Vegas, Marta Fernández-Moreno, Pablo Mesejo and Francisco Herrera. Information Fusion 78 (232-253), 2022.](https://www.sciencedirect.com/science/article/pii/S1566253521001949)
